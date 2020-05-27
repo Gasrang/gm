@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>My Contacts</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <h1>My Contacts</h1>
@@ -13,13 +14,16 @@
     <h3>My Phone no.</h3>
     <ul>
       <li>9089090364</li>
-    </ul>
-    <form class="" action="index.html" method="post">
-      <label>Your name:</label>
-      <input type="text" name="" value="">
-      <br><label>Password</label>
-      <input type="password" name="" value="">
-      <br><input type="submit" name="">
+    </ul><hr>
+    <h3>Send me your contact and your messsage.</h3>
+    <form action="mailto:momingasrang@gmail.com" method="post" enctype="text/plain">
+      <label>Your name</label>
+      <input type="text" name="" value=""><br>
+      <label>Your email</label>
+      <input type="email" name="" value=""><br>
+      <label>Your massage</label><br>
+      <textarea name="text" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="">
     </form>
   </body>
 </html>
